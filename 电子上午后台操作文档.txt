@@ -1,0 +1,9 @@
+0.坏境  node(版本 16.18.1)  mysql
+1.首先执行 npm install 安装依赖包
+2.把yuliner.sql 导入到mysql里 ,注意密码没有 用户名为root
+3.里面有阿里oss的配置,请在router目录下adminshop.js 和admingoods.js中配置oss
+4.启动项目:node server.js  或者nodemon server.js
+5.访问项目:http://localhost:8000/admin/login
+6.后台管理员登录的账户和密码如下:
+用户名: admin
+密码: 123
